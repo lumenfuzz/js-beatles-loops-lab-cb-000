@@ -20,6 +20,6 @@ function iLoveTheBeatles(n) {
   do {
     newArray[i] = `I love the Beatles!`
     i++
-  } while (n < 15 && n > i)
+  } while (n < 15 && n >= i)
   return newArray
 }
